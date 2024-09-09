@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .no-interact {
+    @apply pointer-events-none select-none;
+  }
+  .btn-primary {
+    @apply bg-primary-500 py-5 px-6 rounded-md text-shade-white flex items-center gap-x-2 font-bold;
+  }
+}
