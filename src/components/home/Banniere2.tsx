@@ -6,7 +6,7 @@ function Banniere2() {
           Souscrivez a la newsletter.
         </h3>
         <p className="max-w-[434px] line-clamp-2 text-ellipsis">
-          Pour ne rien rater de nos nouveates et derniers acquisitions 😎
+          Pour ne rien rater de nos nouveautés et derniers acquisitions 😎
         </p>
         <form
           onSubmit={(e) => e.preventDefault()}
